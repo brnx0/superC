@@ -1,0 +1,14 @@
+
+
+@font-face {
+    font-family: Bebas;
+    src: url(../assets/fonts/BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: fontPrincipal;
+    src: url(../fonts/Unbounded-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: fontSecundaria;
+    src: url(../fonts/WorkSans-VariableFont_wght.ttf);
+}
