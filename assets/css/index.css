@@ -49,11 +49,11 @@ header > div {
     color: white ;
     border-radius: 5px;
     font-family: fontPrincipal;
-    padding: 10px 0%;
+    padding: 10px 20px;
     font-size: 12px ;
     border: 0;
     font-weight: bold ;
-    width: 16%;  
+    text-decoration: none;  
 }
 .btnAssinar:hover{
     background-color: #fc3846!important;
@@ -63,11 +63,11 @@ header > div {
     color: white ;
     border-radius: 5px;
     font-family: fontPrincipal;
-    padding: 10px 0px;  
+    padding: 10px 20px;  
     font-size: 12px ;
     border: 0;
     font-weight: bold;
-    width: 16%;
+    text-decoration: none;
 }
 .btnTeste:hover{
     background-color:#559af5 !important;   

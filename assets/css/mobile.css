@@ -1,6 +1,33 @@
-@media (min-width: 800px){
-    #tituloLogo {
+@media only screen and  (max-width: 995PX){
+    #tituloLogo, #textoLogo {
         width: auto !important;
     }
-    
+    .btnAssinar, .btnTeste{
+        width: 26% !important;
+    }
+    header > div {
+        margin-top: 0rem !important;
+    }
+    .divApp01{
+        text-align: center !important;
+        width: auto !important;
+        display: flex !important ;
+    }
+
+    .gallery{
+        display: flex !important ;
+        flex-direction: row !important ;
+        width: auto!important ;
+        flex-wrap: wrap !important ;
+        margin-top: 5px;
+    }
+    section > div {
+        display: flex;
+        flex-direction: row !important;
+        flex-wrap: wrap !important;
+}
+
+
+
+
 }
