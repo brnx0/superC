@@ -1,22 +1,43 @@
 @import url(./fonts.css);
+@import url(./mobile.css);
 
 .backgrounHeader{
-    background-image: url(../images/wallpaper.webp);
+    /* background-image: url(../images/wallpaper.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 800px;
-    background-position-y: center;
+    background-position-y: center; */
+    background-color: black;
+    height: 600px;
     padding: 20px;
+}
+.navbar{
+    padding-bottom: 3rem !important;
+}
+header > div {
+    margin-top: 1rem;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    color: #0e75f9;
+    font-family: fontPrincipal;
+}
+#colorC{
+    color: #fc3846;
 }
 #tituloLogo{
     width: 40%;
     font-size: 48px;
     font-family: fontPrincipal;
     color: white;
-
+}
+#spanID1{
+    color: red;
 }
 #textoLogo{
     width: 35%;
+    margin-top: 5px;
+    font-size: 18px;
     font-family: fontSecundaria;
     color: white;
     font-weight: bold;
@@ -24,7 +45,7 @@
     text-shadow: -1px 2px black;
 }
 .btnAssinar{
-    background-color: rgb(255, 0, 0);
+    background-color:red ;
     color: white ;
     border-radius: 5px;
     font-family: fontPrincipal;
@@ -32,25 +53,53 @@
     font-size: 12px ;
     border: 0;
     font-weight: bold ;
-    width: 16%;
-    
+    width: 16%;  
 }
-
 .btnAssinar:hover{
-    background-color:black !important;
+    background-color: #fc3846!important;
 }
 .btnTeste{
-    background-color: rgb(0, 44, 255) !important;
+    background-color: #0e75f9 !important;
     color: white ;
     border-radius: 5px;
     font-family: fontPrincipal;
-    padding: 10px 0px;
+    padding: 10px 0px;  
     font-size: 12px ;
     border: 0;
     font-weight: bold;
     width: 16%;
-
 }
 .btnTeste:hover{
-    background-color: black!important;
+    background-color:#559af5 !important;   
+}
+/*Section */
+section{
+    padding: 10px 0px;
+    background-color: red;
+}
+section > div{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+section img{
+    width: 64px;
+    height: 64px;
+    margin: 0px 5px;
+}
+
+.divApp01{
+    width: 41%;
+    align-content: center;
+}
+#textoInfo{
+    font-family: fontPrincipal;
+    color: white;    
+}
+.gallery{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 59%;
+    flex-wrap: wrap;
 }
