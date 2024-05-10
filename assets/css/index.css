@@ -20,7 +20,7 @@ header > div {
     width: 20%;
     display: flex;
     color: #0e75f9;
-    font-family: fontPrincipal;
+    font-family: "Unbounded";
 }
 #colorC{
     color: #fc3846;
@@ -28,7 +28,7 @@ header > div {
 #tituloLogo{
     width: 40%;
     font-size: 48px;
-    font-family: fontPrincipal;
+    font-family:"Unbounded";
     color: white;
 }
 #spanID1{
@@ -38,7 +38,7 @@ header > div {
     width: 35%;
     margin-top: 5px;
     font-size: 18px;
-    font-family: fontSecundaria;
+    font-family: "Work Sans";
     color: white;
     font-weight: bold;
     stroke: black;
@@ -48,7 +48,7 @@ header > div {
     background-color:red ;
     color: white ;
     border-radius: 5px;
-    font-family: fontPrincipal;
+    font-family: "Unbounded";
     padding: 10px 20px;
     font-size: 12px ;
     border: 0;
@@ -62,7 +62,7 @@ header > div {
     background-color: #0e75f9 !important;
     color: white ;
     border-radius: 5px;
-    font-family: fontPrincipal;
+    font-family: "Unbounded";
     padding: 10px 20px;  
     font-size: 12px ;
     border: 0;
@@ -93,7 +93,7 @@ section img{
     align-content: center;
 }
 #textoInfo{
-    font-family: fontPrincipal;
+    font-family: "Unbounded";
     color: white;    
 }
 .gallery{
